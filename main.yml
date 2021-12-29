@@ -1,0 +1,13 @@
+---
+- name: Provision VM
+  hosts: all
+  gather_facts: true
+
+  tasks:
+    - name: Install basic software
+      dnf:
+        name:
+        - htop
+        - nc
+        state: latest
+      become: true
