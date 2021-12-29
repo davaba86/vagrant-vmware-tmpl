@@ -17,6 +17,10 @@ Vagrant Plugins:
 - vagrant-hostmanager
 - vagrant-vmware-desktop
 
+```bash
+vagrant plugin install vagrant-hostmanager vagrant-vmware-desktop
+```
+
 ## How to Run
 
 ```bash
